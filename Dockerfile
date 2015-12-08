@@ -26,4 +26,4 @@ EXPOSE 8080
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0"]
 
 # Move the WAR file to be deployed
-ADD target/petclinic.war /opt/wildfly/standalone/deployments/
+ADD target/petclinic.war /opt/jboss/wildfly/standalone/deployments/
