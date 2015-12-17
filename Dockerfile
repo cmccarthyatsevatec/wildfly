@@ -24,6 +24,3 @@ EXPOSE 8081
 # Set the default command to run on boot
 # This will boot WildFly in the standalone mode and bind to all interface
 CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-Djboss.socket.binding.port-offset=1"]
-
-# Move the WAR file to be deployed
-ADD target/sevp.war /opt/jboss/wildfly/standalone/deployments/
