@@ -5,6 +5,8 @@ FROM jboss/base-jdk:8
 ENV WILDFLY_VERSION 9.0.2.Final
 ENV WILDFLY_SHA1 75738379f726c865d41e544e9b61f7b27d2853c7
 ENV JBOSS_HOME /opt/jboss/wildfly
+ENV AWS_ACCESS_KEY AKIAINXNJUKGBN6V47XA
+ENV AWS_SECRET_ACCESS_KEY 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
 
 # Add the WildFly distribution to /opt, and make wildfly the owner of the extracted tar content
 # Make sure the distribution is available from a well-known place
