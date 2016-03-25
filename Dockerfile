@@ -32,3 +32,4 @@ CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0
 
 # Move the WAR file to be deployed
 ADD target/sevp.war /opt/jboss/wildfly/standalone/deployments/
+ADD test.html /opt/jboss/wildfly/standalone/deployments/
